@@ -46,7 +46,7 @@ custom_formats_radarr: []
 custom_formats_sonarr: []
 qualities:
 - id: -2
-  name: '720'
+  name: 720p
   description: ''
   qualities:
   - id: 13
