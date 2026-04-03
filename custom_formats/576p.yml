@@ -1,0 +1,15 @@
+name: 576p
+description: ''
+tags: []
+conditions:
+- name: 576p
+  type: resolution
+  required: false
+  negate: false
+  resolution: 576p
+- name: 576p
+  type: release_title
+  required: false
+  negate: false
+  pattern: 576p
+tests: []

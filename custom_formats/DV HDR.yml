@@ -1,0 +1,15 @@
+name: DV HDR
+description: ''
+tags: []
+conditions:
+- name: HDR
+  type: release_title
+  required: false
+  negate: false
+  pattern: HDR
+- name: DV
+  type: release_title
+  required: false
+  negate: false
+  pattern: DV
+tests: []

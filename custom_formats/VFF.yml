@@ -3,13 +3,13 @@ description: ''
 tags: []
 conditions:
 - name: VFF
-  type: release_title
-  required: true
   negate: false
   pattern: TRUEFRENCH
-- name: Not MULTI
-  type: release_title
   required: true
+  type: release_title
+- name: Not MULTI
   negate: true
-  pattern: Multi tag
+  pattern: Multi ou FR+ tag
+  required: true
+  type: release_title
 tests: []

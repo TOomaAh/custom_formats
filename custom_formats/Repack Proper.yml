@@ -1,0 +1,15 @@
+name: Repack Proper
+description: ''
+tags: []
+conditions:
+- name: Repack Proper Rerip
+  negate: false
+  pattern: Repack Proper Rerip
+  required: true
+  type: release_title
+- name: Not Higher Version Repack Proper
+  type: release_title
+  required: true
+  negate: true
+  pattern: Not Higher Version Repack Proper
+tests: []

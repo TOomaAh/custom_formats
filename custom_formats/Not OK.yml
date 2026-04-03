@@ -1,0 +1,10 @@
+name: Not OK
+description: ''
+tags: []
+conditions:
+- name: Not OK
+  negate: false
+  pattern: Not OK
+  required: false
+  type: release_title
+tests: []

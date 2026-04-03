@@ -1,0 +1,25 @@
+name: Multi-Audio
+description: ''
+tags: []
+conditions:
+- name: Multi ou FR+ tag
+  negate: false
+  pattern: Multi ou FR+ tag
+  required: true
+  type: release_title
+- name: Not VOSTFR
+  negate: true
+  pattern: VOSTFR
+  required: true
+  type: release_title
+- name: Not VOSTFR
+  type: release_title
+  required: true
+  negate: true
+  pattern: VO Tag
+- name: Not VOSTFR
+  type: release_title
+  required: true
+  negate: true
+  pattern: '[FR] seul'
+tests: []

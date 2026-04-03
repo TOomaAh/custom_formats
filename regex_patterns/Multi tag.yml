@@ -1,6 +1,0 @@
-name: Multi tag
-pattern: (?i)\bMULTI\b(?![ ._-]?sub(s)?)
-description: ''
-tags:
-- language
-tests: []

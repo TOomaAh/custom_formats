@@ -1,0 +1,10 @@
+name: HDTV
+description: ''
+tags: []
+conditions:
+- name: HDTV
+  type: release_title
+  required: false
+  negate: false
+  pattern: HDTV
+tests: []

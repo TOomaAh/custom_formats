@@ -1,0 +1,6 @@
+name: Multi ou FR+ tag
+pattern: (?i)(\bMULTI\b(?![ ._-]?sub(s)?)|\[[^\]]*(FR\+|\+FR)[^\]]*\])
+description: ''
+tags:
+- language
+tests: []

@@ -1,0 +1,10 @@
+name: HEVC
+description: ''
+tags: []
+conditions:
+- name: HEVC
+  negate: false
+  pattern: H265
+  required: false
+  type: release_title
+tests: []

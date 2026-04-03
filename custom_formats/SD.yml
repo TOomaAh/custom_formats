@@ -1,0 +1,20 @@
+name: SD
+description: ''
+tags: []
+conditions:
+- name: 360p
+  type: resolution
+  required: false
+  negate: false
+  resolution: 360p
+- name: 480p
+  type: resolution
+  required: false
+  negate: false
+  resolution: 480p
+- name: 540p
+  type: resolution
+  required: false
+  negate: false
+  resolution: 540p
+tests: []

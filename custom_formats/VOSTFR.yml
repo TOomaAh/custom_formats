@@ -3,29 +3,29 @@ description: ''
 tags: []
 conditions:
 - name: VOSTFR
-  type: release_title
-  required: false
   negate: false
   pattern: VOSTFR
-- name: SUBFRENCH
-  type: release_title
   required: false
+  type: release_title
+- name: SUBFRENCH
   negate: false
   pattern: SUBFRENCH
-- name: French
-  type: language
   required: false
-  negate: false
-  language: french
-  exceptLanguage: true
-- name: ENGLISH
   type: release_title
+- exceptLanguage: true
+  language: french
+  name: French
+  negate: false
   required: false
+  type: language
+- name: ENGLISH
   negate: false
   pattern: ENGLISH
+  required: false
+  type: release_title
 - name: TRUEFRENCH
-  type: release_group
-  required: true
   negate: true
   pattern: TRUEFRENCH
+  required: true
+  type: release_group
 tests: []

@@ -11,7 +11,7 @@ conditions:
   type: release_title
   required: true
   negate: true
-  pattern: Multi tag
+  pattern: Multi ou FR+ tag
 - name: Not VFF
   type: release_title
   required: true
