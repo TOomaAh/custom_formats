@@ -1,0 +1,6 @@
+name: Not OK
+pattern: \b(NOK)\b
+description: ''
+tags:
+- version
+tests: []

@@ -1,0 +1,15 @@
+name: VFF
+description: ''
+tags: []
+conditions:
+- name: VFF
+  type: release_title
+  required: true
+  negate: false
+  pattern: TRUEFRENCH
+- name: Not MULTI
+  type: release_title
+  required: true
+  negate: true
+  pattern: Multi tag
+tests: []

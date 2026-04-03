@@ -1,0 +1,6 @@
+name: WEB-DL ou Service Streaming
+pattern: (?i)(\bWEB(-?DL)?\b(?!-?Rip)|\b(AMZN|ATV|ATVP|CC|DCU|DSNP|HMAX|HBO|Hulu|IT|Max|NF|PMTP|PCOK|PLAY|ROKU|SHO|STAN|SYFY)\b)
+description: ''
+tags:
+- source
+tests: []

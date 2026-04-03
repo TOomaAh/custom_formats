@@ -1,0 +1,6 @@
+name: SUBFRENCH
+pattern: \b(VOST.*?FR(E|A)?)\b
+description: ''
+tags:
+- language
+tests: []

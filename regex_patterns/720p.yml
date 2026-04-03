@@ -1,0 +1,6 @@
+name: 720p
+pattern: \b(720p)\b
+description: ''
+tags:
+- quality
+tests: []

@@ -1,0 +1,6 @@
+name: ENGLISH
+pattern: \b(ENGLISH)\b
+description: ''
+tags:
+- language
+tests: []

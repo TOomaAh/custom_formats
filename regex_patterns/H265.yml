@@ -1,0 +1,6 @@
+name: H265
+pattern: \b(h265|x265|hevc|HEVC)\b
+description: ''
+tags:
+- codec
+tests: []

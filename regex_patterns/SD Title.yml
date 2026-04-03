@@ -1,0 +1,6 @@
+name: SD Title
+pattern: \b(sdtv|dvd)\b
+description: ''
+tags:
+- quality
+tests: []

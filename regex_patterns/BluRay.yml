@@ -1,0 +1,6 @@
+name: BluRay
+pattern: (?i)\b(BluRay|Blu-Ray|BDRip|BD-Rip|BDRemux|BD-Remux|REMUX|BDMux|BD25|BD50|BD66|BD100|BDSCR|COMPLETE\.BLURAY)\b
+description: ''
+tags:
+- source
+tests: []

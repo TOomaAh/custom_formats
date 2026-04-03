@@ -1,0 +1,6 @@
+name: 1080p
+pattern: \b(1080p)\b
+description: ''
+tags:
+- quality
+tests: []

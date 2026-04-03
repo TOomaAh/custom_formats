@@ -1,0 +1,30 @@
+name: VO
+description: ''
+tags: []
+conditions:
+- name: VO Tag
+  type: release_title
+  required: false
+  negate: false
+  pattern: VO Tag
+- name: Not multi
+  type: release_title
+  required: true
+  negate: true
+  pattern: Multi tag
+- name: Not VFF
+  type: release_title
+  required: true
+  negate: true
+  pattern: TRUEFRENCH
+- name: Not FR Tag
+  type: release_title
+  required: true
+  negate: true
+  pattern: FR+ ou +FR tag
+- name: Not VOSTFR
+  type: release_title
+  required: true
+  negate: true
+  pattern: VOSTFR
+tests: []

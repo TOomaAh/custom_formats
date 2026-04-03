@@ -1,0 +1,6 @@
+name: TRUEFRENCH
+pattern: (?i)\b(vff|vfi|vf2|french|truefrench)\b|\bvf\b(?!q)|\[fr\]
+description: ''
+tags:
+- language
+tests: []

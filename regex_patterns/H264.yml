@@ -1,5 +1,6 @@
 name: H264
 pattern: (?i)\b(x264|x\.264|h264|h\.264|AVC|CAVS|AVCHD)\b
 description: ''
-tags: []
+tags:
+- codec
 tests: []

@@ -1,0 +1,6 @@
+name: VO Tag
+pattern: (?i)\b(VO|VOST|VOF)\b
+description: ''
+tags:
+- language
+tests: []

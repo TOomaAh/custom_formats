@@ -1,0 +1,6 @@
+name: FR+ ou +FR tag
+pattern: (?i)\[[^\]]*(FR\+|\+FR)[^\]]*\]
+description: ''
+tags:
+- language
+tests: []

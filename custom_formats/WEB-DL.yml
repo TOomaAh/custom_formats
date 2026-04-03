@@ -1,0 +1,30 @@
+name: WEB-DL
+description: ''
+tags: []
+conditions:
+- name: WEB-DL or Streaming Service
+  type: release_title
+  required: true
+  negate: false
+  pattern: WEB-DL ou Service Streaming
+- name: Not Webrip
+  type: release_title
+  required: true
+  negate: true
+  pattern: WEBRip
+- name: Not Bluray
+  type: release_title
+  required: true
+  negate: true
+  pattern: BluRay
+- name: Not HDTV
+  type: release_title
+  required: true
+  negate: true
+  pattern: HDTV
+- name: Not DVD
+  type: release_title
+  required: true
+  negate: true
+  pattern: SD Title
+tests: []

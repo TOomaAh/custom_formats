@@ -1,0 +1,6 @@
+name: HDR
+pattern: \b(HDR|HDR10|HDR10p|HDR10P)\b
+description: ''
+tags:
+- quality
+tests: []

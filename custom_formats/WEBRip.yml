@@ -1,0 +1,10 @@
+name: WEBRip
+description: ''
+tags: []
+conditions:
+- name: WWEBRip
+  type: release_title
+  required: true
+  negate: false
+  pattern: WEBRip
+tests: []

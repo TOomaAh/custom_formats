@@ -1,0 +1,6 @@
+name: HDTV
+pattern: (?i)\bHDTV\b
+description: ''
+tags:
+- source
+tests: []
