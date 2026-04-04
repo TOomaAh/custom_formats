@@ -1,0 +1,12 @@
+name: "Anim\xE9s Teams"
+pattern: \b(T3KASHI|KAF)\b
+description: ''
+tags:
+- teams
+tests:
+- id: 1
+  input: Fire.Force.S03E25.FiNAL.MULTi.1080p.WEBRiP.x265-KAF
+  expected: true
+- id: 2
+  input: Fire.Force.S03E25.FiNAL.MULTi.1080p.WEBRiP.x265-kaf
+  expected: true

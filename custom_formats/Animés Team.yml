@@ -1,0 +1,35 @@
+name: "Anim\xE9s Team"
+description: ''
+tags: []
+conditions:
+- name: "Anim\xE9s Teams"
+  negate: false
+  pattern: "Anim\xE9s Teams"
+  required: true
+  type: release_title
+tests:
+- conditionResults:
+  - matches: false
+    name: "Anim\xE9s Teams"
+    negate: false
+    pattern: "Anim\xE9s Teams"
+    required: true
+    type: release_title
+  expected: false
+  id: 1
+  input: Detective Conan S01E1196 VOSTFR 1080p WEB x264 AAC -Tsundere-Raws (ADN) (Meitantei
+    Conan,Case Closed)
+  lastRun: '2026-04-04T18:02:14.456232'
+  passes: true
+- conditionResults:
+  - matches: true
+    name: "Anim\xE9s Teams"
+    negate: false
+    pattern: "Anim\xE9s Teams"
+    required: true
+    type: release_title
+  expected: true
+  id: 2
+  input: Fire.Force.S03E25.FiNAL.MULTi.1080p.WEBRiP.x265-KAF
+  lastRun: '2026-04-04T18:02:14.456232'
+  passes: true

@@ -1,4 +1,4 @@
-name: HD 1080p 720p
+name: "Anim\xE9s"
 description: ''
 tags: []
 upgradesAllowed: true
@@ -16,11 +16,11 @@ custom_formats:
   score: 70
 - name: WEBRip
   score: 60
+- name: "Anim\xE9s Team"
+  score: 50
 - name: BluRay
   score: 40
 - name: HDTV
-  score: 20
-- name: VFF
   score: 20
 - name: Repack Proper
   score: 10
@@ -32,8 +32,6 @@ custom_formats:
   score: -60
 - name: SD
   score: -70
-- name: VOSTFR
-  score: -150
 - name: Not OK
   score: -200
 - name: AV1
@@ -42,8 +40,16 @@ custom_formats:
   score: -1000
 - name: VO
   score: -1000
-custom_formats_radarr: []
-custom_formats_sonarr: []
+custom_formats_radarr:
+- name: VOSTFR
+  score: 20
+- name: VFF
+  score: -150
+custom_formats_sonarr:
+- name: VFF
+  score: 20
+- name: VOSTFR
+  score: -150
 qualities:
 - id: -1
   name: 1080p
@@ -74,4 +80,4 @@ qualities:
 upgrade_until:
   id: -1
   name: 1080p
-language: any
+language: original
