@@ -7,4 +7,45 @@ conditions:
   pattern: H265
   required: false
   type: release_title
-tests: []
+- name: Teams
+  negate: false
+  pattern: Team HEVC
+  required: false
+  type: release_title
+tests:
+- conditionResults:
+  - matches: false
+    name: HEVC
+    negate: false
+    pattern: H265
+    required: false
+    type: release_title
+  - matches: true
+    name: Teams
+    negate: false
+    pattern: Team HEVC
+    required: false
+    type: release_title
+  expected: true
+  id: 1
+  input: "NCIS.Enqu\xEAtes.Sp\xE9ciales.S12E20.1080p.MULTi.WEB-DL.AvALoN.mkv"
+  lastRun: '2026-04-04T13:29:58.084594'
+  passes: true
+- conditionResults:
+  - matches: true
+    name: HEVC
+    negate: false
+    pattern: H265
+    required: false
+    type: release_title
+  - matches: false
+    name: Teams
+    negate: false
+    pattern: Team HEVC
+    required: false
+    type: release_title
+  expected: true
+  id: 2
+  input: Ranma 1/2 (2024) S02e26 MULTI 1080p WebRip x265 10bit AAC.mkv
+  lastRun: '2026-04-04T13:29:58.084594'
+  passes: true

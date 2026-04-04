@@ -1,0 +1,8 @@
+name: Team HEVC
+pattern: \b(AvALoN)\b
+description: Toutes les teams qui ne propose que de l'HEVC
+tags: []
+tests:
+- id: 1
+  input: "NCIS.Enqu\xEAtes.Sp\xE9ciales.S12E20.1080p.MULTi.WEB-DL.AvALoN.mkv"
+  expected: true

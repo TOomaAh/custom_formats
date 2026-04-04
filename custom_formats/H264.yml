@@ -5,11 +5,34 @@ conditions:
 - name: '264'
   negate: false
   pattern: H264
-  required: true
+  required: false
   type: release_title
 - name: Not HEVC
-  type: release_title
-  required: true
   negate: true
   pattern: H265
-tests: []
+  required: true
+  type: release_title
+- name: Not AV1
+  negate: true
+  pattern: AV1
+  required: true
+  type: release_title
+tests:
+- conditionResults:
+  - matches: false
+    name: '264'
+    negate: false
+    pattern: H264
+    required: false
+    type: release_title
+  - matches: false
+    name: Not HEVC
+    negate: true
+    pattern: H265
+    required: true
+    type: release_title
+  expected: true
+  id: 1
+  input: Le Robot sauvage (2024) [Multi-Audio VFF][WEBDL-1080p][FR+EN].mkv
+  lastRun: '2026-04-04T13:18:39.141585'
+  passes: true

@@ -2,9 +2,21 @@ name: WEBRip
 description: ''
 tags: []
 conditions:
-- name: WWEBRip
-  type: release_title
-  required: true
+- name: WEBRip
   negate: false
   pattern: WEBRip
-tests: []
+  required: true
+  type: release_title
+tests:
+- conditionResults:
+  - matches: true
+    name: WEBRip
+    negate: false
+    pattern: WEBRip
+    required: true
+    type: release_title
+  expected: true
+  id: 1
+  input: Ranma 1/2 (2024) S02e26 MULTI 1080p WebRip x265 10bit AAC.mkv
+  lastRun: '2026-04-04T13:29:37.381827'
+  passes: true

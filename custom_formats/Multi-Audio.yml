@@ -13,13 +13,43 @@ conditions:
   required: true
   type: release_title
 - name: Not VOSTFR
-  type: release_title
-  required: true
   negate: true
   pattern: VO Tag
-- name: Not VOSTFR
-  type: release_title
   required: true
+  type: release_title
+- name: Not VOSTFR
   negate: true
   pattern: '[FR] seul'
-tests: []
+  required: true
+  type: release_title
+tests:
+- conditionResults:
+  - matches: true
+    name: Multi ou FR+ tag
+    negate: false
+    pattern: Multi ou FR+ tag
+    required: true
+    type: release_title
+  - matches: false
+    name: Not VOSTFR
+    negate: true
+    pattern: VOSTFR
+    required: true
+    type: release_title
+  - matches: false
+    name: Not VOSTFR
+    negate: true
+    pattern: VO Tag
+    required: true
+    type: release_title
+  - matches: false
+    name: Not VOSTFR
+    negate: true
+    pattern: '[FR] seul'
+    required: true
+    type: release_title
+  expected: true
+  id: 1
+  input: Ranma 1/2 (2024) S02e26 MULTI 1080p WebRip x265 10bit AAC.mkv
+  lastRun: '2026-04-04T13:29:11.109302'
+  passes: true
