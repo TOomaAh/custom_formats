@@ -29,7 +29,7 @@ tests:
   expected: true
   id: 1
   input: "NCIS.Enqu\xEAtes.Sp\xE9ciales.S12E20.1080p.MULTi.WEB-DL.AvALoN.mkv"
-  lastRun: '2026-04-04T13:29:58.084594'
+  lastRun: '2026-04-04T17:29:08.937185'
   passes: true
 - conditionResults:
   - matches: true
@@ -47,5 +47,23 @@ tests:
   expected: true
   id: 2
   input: Ranma 1/2 (2024) S02e26 MULTI 1080p WebRip x265 10bit AAC.mkv
-  lastRun: '2026-04-04T13:29:58.084594'
+  lastRun: '2026-04-04T17:29:08.937185'
   passes: true
+- conditionResults:
+  - matches: false
+    name: HEVC
+    negate: false
+    pattern: H265
+    required: false
+    type: release_title
+  - matches: false
+    name: Teams
+    negate: false
+    pattern: Team HEVC
+    required: false
+    type: release_title
+  expected: false
+  id: 3
+  input: Avalonia.L'etrange.Voyage.2022.Multi.Web.720p.H264.DDP5.1.mkv
+  lastRun: '2026-04-04T17:29:08.937185'
+  passes: false

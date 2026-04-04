@@ -6,3 +6,6 @@ tests:
 - id: 1
   input: "NCIS.Enqu\xEAtes.Sp\xE9ciales.S12E20.1080p.MULTi.WEB-DL.AvALoN.mkv"
   expected: true
+- id: 2
+  input: Avalonia.L'etrange.Voyage.2022.Multi.Web.720p.H264.DDP5.1
+  expected: false

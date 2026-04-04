@@ -3,4 +3,7 @@ pattern: \b(h265|x265|hevc|HEVC)\b
 description: ''
 tags:
 - codec
-tests: []
+tests:
+- id: 1
+  input: Avalonia.L'etrange.Voyage.2022.Multi.Web.720p.H264.DDP5.1.mkv
+  expected: false
