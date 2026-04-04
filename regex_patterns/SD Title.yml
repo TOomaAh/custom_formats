@@ -1,5 +1,5 @@
 name: SD Title
-pattern: \b(sdtv|dvd)\b
+pattern: \b(sdtv)\b
 description: ''
 tags:
 - quality

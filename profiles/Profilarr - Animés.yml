@@ -1,4 +1,4 @@
-name: "Anim\xE9s"
+name: "Profilarr - Anim\xE9s"
 description: ''
 tags: []
 upgradesAllowed: true
@@ -77,6 +77,32 @@ qualities:
     name: WEBRip-720p
   - id: 16
     name: HDTV-720p
+- id: -4
+  name: 576p
+  description: ''
+  qualities:
+  - id: 17
+    name: Bluray-576p
+- id: -3
+  name: 480p
+  description: ''
+  qualities:
+  - id: 21
+    name: DVD-R
+  - id: 22
+    name: DVD
+  - id: 20
+    name: WEBRip-480p
+  - id: 19
+    name: WEBDL-480p
+  - id: 18
+    name: Bluray-480p
+- id: -5
+  name: SD
+  description: ''
+  qualities:
+  - id: 24
+    name: SDTV
 upgrade_until:
   id: -1
   name: 1080p

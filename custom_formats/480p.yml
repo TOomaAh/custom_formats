@@ -1,15 +1,15 @@
-name: SD
+name: 480p
 description: ''
 tags: []
 conditions:
-- name: 360p
-  negate: false
-  required: false
-  resolution: 360p
-  type: resolution
-- name: SD
+- name: 480p
   type: release_title
   required: false
   negate: false
-  pattern: SD Title
+  pattern: 480p
+- name: 480p
+  type: resolution
+  required: false
+  negate: false
+  resolution: 480p
 tests: []
