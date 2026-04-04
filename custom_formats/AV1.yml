@@ -3,8 +3,8 @@ description: ''
 tags: []
 conditions:
 - name: AV1
-  type: release_title
-  required: false
   negate: false
   pattern: AV1
+  required: false
+  type: release_title
 tests: []

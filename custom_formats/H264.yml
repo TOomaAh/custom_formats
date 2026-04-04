@@ -3,8 +3,13 @@ description: ''
 tags: []
 conditions:
 - name: '264'
-  type: release_title
-  required: true
   negate: false
   pattern: H264
+  required: true
+  type: release_title
+- name: Not HEVC
+  type: release_title
+  required: true
+  negate: true
+  pattern: H265
 tests: []
