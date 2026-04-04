@@ -40,6 +40,8 @@ custom_formats:
   score: -1000
 - name: DV HDR
   score: -1000
+- name: VFQ
+  score: -1000
 - name: VO
   score: -1000
 custom_formats_radarr: []
