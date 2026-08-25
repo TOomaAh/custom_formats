@@ -6,7 +6,9 @@
     "radarr",
     "sonarr"
   ],
-  "dependencies": {},
+  "dependencies": {
+    "https://github.com/Dictionarry-Hub/schema": "1.1.0"
+  },
   "authors": [
     {
       "name": "TOomaAh"
