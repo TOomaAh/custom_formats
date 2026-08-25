@@ -1,5 +1,5 @@
 name: SUBFRENCH
-pattern: \b(VOST.*?FR(E|A)?)\b
+pattern: (?i)\b(SUBFRENCH)\b
 description: ''
 tags:
 - language

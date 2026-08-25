@@ -3,28 +3,75 @@ description: ''
 tags: []
 conditions:
 - name: VO Tag
-  type: release_title
-  required: false
   negate: false
   pattern: VO Tag
-- name: Not multi
+  required: false
   type: release_title
-  required: true
+- name: Not multi
   negate: true
   pattern: Multi ou FR+ tag
-- name: Not VFF
-  type: release_title
   required: true
+  type: release_title
+- name: Not VFF
   negate: true
   pattern: TRUEFRENCH
-- name: Not FR Tag
-  type: release_title
   required: true
+  type: release_title
+- name: Not FR Tag
   negate: true
   pattern: FR+ ou +FR tag
-- name: Not VOSTFR
-  type: release_title
   required: true
+  type: release_title
+- name: Not VOSTFR
   negate: true
   pattern: VOSTFR
-tests: []
+  required: true
+  type: release_title
+- name: Not SUBFRENCH
+  negate: true
+  pattern: SUBFRENCH
+  required: true
+  type: release_title
+tests:
+- conditionResults:
+  - matches: false
+    name: VO Tag
+    negate: false
+    pattern: VO Tag
+    required: false
+    type: release_title
+  - matches: false
+    name: Not multi
+    negate: true
+    pattern: Multi ou FR+ tag
+    required: true
+    type: release_title
+  - matches: false
+    name: Not VFF
+    negate: true
+    pattern: TRUEFRENCH
+    required: true
+    type: release_title
+  - matches: false
+    name: Not FR Tag
+    negate: true
+    pattern: FR+ ou +FR tag
+    required: true
+    type: release_title
+  - matches: false
+    name: Not VOSTFR
+    negate: true
+    pattern: VOSTFR
+    required: true
+    type: release_title
+  - matches: true
+    name: Not SUBFRENCH
+    negate: true
+    pattern: SUBFRENCH
+    required: true
+    type: release_title
+  expected: false
+  id: 1
+  input: Skeleton.Knight.in.Another.World.S01E01.SUBFRENCH.1080p.WEB.x264-T3KASHi
+  lastRun: '2026-08-25T21:07:53.469340'
+  passes: true
