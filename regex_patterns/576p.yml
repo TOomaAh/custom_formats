@@ -1,6 +1,0 @@
-name: 576p
-pattern: \b(576p)\b
-description: ''
-tags:
-- quality
-tests: []

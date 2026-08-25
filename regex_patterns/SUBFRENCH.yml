@@ -1,6 +1,0 @@
-name: SUBFRENCH
-pattern: (?i)\b(SUBFRENCH)\b
-description: ''
-tags:
-- language
-tests: []

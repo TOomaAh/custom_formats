@@ -1,14 +1,24 @@
 {
-    "name": "my-database",
-    "version": "1.0.0",
-    "description": "My custom Arr configurations",
-    "arr_types": ["radarr", "sonarr"],
-
-    "dependencies": {
-        "https://github.com/Dictionarry-Hub/schema": "1.0.0"
-    },
-
-    "profilarr": {
-        "minimum_version": "2.0.0"
+  "name": "Developpeur du dimanche",
+  "version": "2.0.0",
+  "description": "Official Developpeur du dimanche Database",
+  "arr_types": [
+    "radarr",
+    "sonarr"
+  ],
+  "dependencies": {},
+  "authors": [
+    {
+      "name": "TOomaAh"
     }
+  ],
+  "license": "MIT",
+  "repository": "https://github.com/TOomaAh/custom_formats",
+  "links": {
+    "homepage": "https://github.com/TOomaAh",
+    "issues": "https://github.com/TOomaAh/custom_formats/issues"
+  },
+  "profilarr": {
+    "minimum_version": "2.0.0"
+  }
 }

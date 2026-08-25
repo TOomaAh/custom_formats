@@ -1,6 +1,0 @@
-name: SD Title
-pattern: \b(sdtv)\b
-description: ''
-tags:
-- quality
-tests: []

@@ -1,6 +1,0 @@
-name: AV1
-pattern: \b(AV1)\b
-description: ''
-tags:
-- codec
-tests: []

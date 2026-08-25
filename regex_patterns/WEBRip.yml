@@ -1,6 +1,0 @@
-name: WEBRip
-pattern: (?i)WEB-?Rip
-description: ''
-tags:
-- source
-tests: []

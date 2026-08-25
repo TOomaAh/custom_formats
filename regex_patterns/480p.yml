@@ -1,5 +1,0 @@
-name: 480p
-pattern: \b(480p|dvd)\b
-description: ''
-tags: []
-tests: []
